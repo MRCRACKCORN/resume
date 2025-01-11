@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #1e1e1e; /* Slightly lighter dark background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    background: #333; /* Neutral dark background for photo placeholder */
+    border-radius: 50%;
+    background-image: url('1706002113293.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.name-title h1 {
+    font-size: 24px;
+    color: #76c7c0; /* Teal accent color */
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.about h2 {
+    font-size: 20px;
+    color: #76c7c0; /* Matching teal accent */
+    margin-bottom: 10px;
+}
+
+.contact-info li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.details .column {
+    width: 48%;
+}
+
+.details h2 {
+    font-size: 20px;
+    color: #76c7c0; /* Consistent teal accent */
+    margin-bottom: 10px;
+}
+
+.details h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ff9800; /* Orange for section headers */
+}
+
+.details ul {
+    padding-left: 20px;
+    list-style: disc;
+    color: #cfd8dc; /* Slightly muted text for lists */
+}
+
+.skills-summary {
+    margin-top: 20px;
+}
+
+.skills-summary h2 {
+    font-size: 20px;
+    color: #76c7c0; /* Consistent teal accent */
+    margin-bottom: 10px;
+}
+
+.skills-summary ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-summary ul li {
+    margin: 5px 0;
+    color: #e0e0e0; /* Light text color */
+}
